@@ -1,6 +1,7 @@
+{{- $name := promptString "name" -}}
 {{- $email := promptString "email" -}}
 {{- $location := promptString "location" -}}
 [data]
-    name = "Chau Tran"
+    name = "{{ $name }}"
     email = "{{ $email }}"
     location = "{{ $location }}"

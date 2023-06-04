@@ -263,7 +263,7 @@ colors:
   #cursor:
   #  text: CellBackground
   #  cursor: CellForeground
-
+´
   # Vi mode cursor colors
   #
   # Colors for the cursor when the vi mode is active.

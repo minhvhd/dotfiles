@@ -21,7 +21,6 @@ brew "git"
 brew "jq"
 brew "mas"
 brew "n"
-brew "neovim", args: ["HEAD"]
 brew "openjdk@11"
 brew "ripgrep"
 brew "tmux"

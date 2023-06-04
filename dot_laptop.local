@@ -6,7 +6,7 @@ set -e
 if ! [[ -f ".laptop.settings" ]]
 then
     echo "Downloading .laptop.settings ..."
-    curl --remote-name https://raw.githubusercontent.com/nartc/dotfiles/main/dot_laptop.settings
+    curl --remote-name https://raw.githubusercontent.com/minhvhd/dotfiles/main/dot_laptop.settings
     mv dot_laptop.settings .laptop.settings
     chmod +x .laptop.settings
     echo "Executing .laptop.settings ..."
@@ -18,7 +18,7 @@ fi
 if ! [[ -f ".laptop.devenv" ]]
 then
     echo "Downloading .laptop.devenv ..."
-    curl --remote-name https://raw.githubusercontent.com/nartc/dotfiles/main/dot_laptop.devenv
+    curl --remote-name https://raw.githubusercontent.com/minhvhd/dotfiles/main/dot_laptop.devenv
     mv dot_laptop.devenv .laptop.devenv
     chmod +x .laptop.devenv
     echo "Executing .laptop.devenv ..."
